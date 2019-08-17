@@ -31,3 +31,11 @@ The controller accepts an input of 5 or 12V. We chose to use 5V and have it plug
 
 The code can be found in the `arduinosrc`
 
+## Variation of 4 step motor
+
+- Checks data from the serial
+- If the data is different from the current status, plays the intro of Mario from the buzzer and turns the motor
+
+Maybe it would be nice to play the imperial march instead when the status changes...
+
+*NOTE*: In order to keep the health of your buzzer, a resistance of 220Ω is needed for the input
